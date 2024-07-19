@@ -1,0 +1,25 @@
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+
+  height: 220vh;
+}
+
+/* .dark {
+  color: #fb488a;
+  background-color: #181818f8;
+}
+.dark svg {
+  fill: #fb488a;
+}
+
+svg {
+  fill: #fafafa;
+}
+.dark .app-wrapper {
+  background-color: #181818f8;
+  color: #fb488a;
+} */
