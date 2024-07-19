@@ -1,5 +1,6 @@
 import Dark from "./Dark";
 import "./Header.css";
+import Arrow from "../../public/arrow_circle_down.svg";
 
 interface HeaderProps {
   dark: boolean;
@@ -26,7 +27,7 @@ const Header: React.FC<HeaderProps> = (props) => {
       <h1>Scissors</h1>
       <a className="start-btn" href="#choose-field">
         Start
-        <img src="/arrow_circle_down.svg" alt="Arrow down"></img>
+        <img src={Arrow} alt="Arrow down" />
       </a>
     </div>
   );
