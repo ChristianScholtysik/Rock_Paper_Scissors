@@ -26,7 +26,7 @@ const Header: React.FC<HeaderProps> = (props) => {
       <h1>Scissors</h1>
       <a className="start-btn" href="#choose-field">
         Start
-        <img src="/arrow_circle_down.svg" alt="Arrow down" />
+        <img src="/arrow_circle_down.svg" alt="Arrow down"></img>
       </a>
     </div>
   );
